@@ -9,7 +9,8 @@ gem 'sqlite3'
 gem 'psych'
 
 gem 'bootstrap-sass'
-
+#gem 'annotate'
+gem "annotate", "~> 2.5.0"
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
@@ -21,6 +22,10 @@ group :assets do
 
   gem 'uglifier', '>= 1.0.3'
 end
+
+#group :development do
+#    gem 'annotate', '~> 2.4.1.beta'
+#end
 
 gem 'jquery-rails'
 
